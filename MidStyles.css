@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+    font-family: 'Uncial Antiqua', cursive; /* Fantasy font */
+    color: #f5e6c8; /* Light parchment color */
+    background-color: #1c0b2b; /* Deep purple for fantasy vibe */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #d6c422; /* Gold for titles */
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.8); /* Light shimmer */
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #322244; /* Dark background */
+    border-bottom: 2px solid #c0a965; /* Gold border */
+}
+
+/* Navbar Styles */
+.navbar .nav-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a {
+    background: linear-gradient(0deg, #6b507e 70%, #ffffff 100%); /* Mystical purple gradient */
+    color: #f59c29;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #543a6d;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect with fantasy touch */
+.nav-item a:hover {
+    transform: scale(1.15) rotate(-1deg);
+    box-shadow: 0px 0px 10px 5px rgba(236, 212, 71, 0.6); /* Soft glow effect */
+}
+
+/* Section Styles */
+.section {
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(35, 18, 45, 0.9); /* Translucent dark background */
+    border: 2px solid #d69953;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Depth effect */
+}
+
+/* Project Styles */
+.project-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.project-item {
+    background: linear-gradient(0deg, #6b507e 70%, #ffffff 100%); /* Mystical purple gradient */
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    color: #f5e6c8;
+    border: 2px solid #db9340;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.project-item:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 10px rgba(192, 169, 101, 0.7); /* Glowing effect on hover */
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    padding: 15px;
+    color: #c0a965;
+    background-color: #322244;
+    border-top: 2px solid #c0a965;
+}
