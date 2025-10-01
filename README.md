@@ -1,6 +1,1 @@
-# Zanthril.github.io
-Github Website Page
-USER NAME
-Zanthril
-GitHub URL
-https://github.com/Zanthril/Zanthril.github.io
+There will be more stuff here as time goes on and I understand GitHub more.
